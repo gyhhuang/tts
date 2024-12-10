@@ -1,0 +1,17 @@
+Airborne
+Blast Overpressure
+Demolition
+Operator State Monitoring
+Marksman
+Disease State
+
+Airborne: "Our wearables deliver critical in-flight health and performance data to airborne personnel in real-time."
+Blast Overpressure: "Designed to measure and monitor blast overpressure exposure, our devices enhance safety during high-risk operations."
+Demolition: "Our technology tracks operator vitals and environmental impacts to ensure safety and precision during demolition tasks."
+Operator State Monitoring: "Real-time monitoring of operator health ensures optimal performance and safety in the most demanding conditions."
+Marksman: "Precision-driven wearables support marksmen by tracking stress levels and optimizing performance under pressure."
+Denied Environment: "Our devices provide reliable health insights and operational data in GPS-denied and communication-challenged environments."
+ATAK (Android Tactical Assault Kit): "Seamlessly integrated with ATAK, our wearables provide enhanced situational awareness and operational readiness."
+Disease State: "Wearables offer continuous health monitoring for early detection and management of critical disease states."
+
+192.168.1.147
