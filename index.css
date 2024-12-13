@@ -3625,6 +3625,14 @@ blockquote {
   position: relative;
 }
 
+.bio{
+  height: 2.5rem;
+}
+
+.cancers {
+  height: 1.75rem;
+}
+
 .line-2 {
   opacity: .73;
   background-color: #63636380;
@@ -5001,6 +5009,10 @@ blockquote {
     margin-left: -20px;
   }
 
+  .cancers {
+    margin-left: -10px;
+  }
+
   .project-footer-link {
     margin-left: 12px;
     margin-right: 12px;
@@ -5162,6 +5174,14 @@ blockquote {
     width: 6rem;
     height: 2rem;
     margin-top: 8px;
+  }
+
+  .bio{
+    height: 1.75rem;
+  }
+  
+  .cancers {
+    height: 1.25rem;
   }
 
   .awards-links-wrapper {
