@@ -12870,5 +12870,6 @@ Webflow.require('ix2').init(
 );
 
 if (window.innerWidth <= 868) {
+  console.log('setting padding')
   document.getElementById('Work').style.paddingBottom = '0px';
 }
