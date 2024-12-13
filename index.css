@@ -5345,9 +5345,13 @@ blockquote {
 }
 
 #Work {
-  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0), 50%, rgba(0, 0, 0, 0) 50%, #333);
-  padding-top: 100px; */
-  padding-bottom: 400px;
+  padding-bottom: 400px; /* Default padding for non-mobile devices */
+}
+
+@media (max-width: 568px) {
+  #Work {
+    padding-bottom: 0; /* Remove padding for mobile */
+  }
 }
 
 #Contact {
