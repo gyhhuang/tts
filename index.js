@@ -12882,3 +12882,25 @@ if (window.innerWidth <= 868) {
   console.log('setting padding')
   document.getElementById('Work').style.paddingBottom = '0px';
 }
+
+// Function to observe the element
+// document.addEventListener("DOMContentLoaded", () => {
+//   const observerOptions = {
+//     root: null, // Viewport
+//     threshold: 0.3 // Trigger when 10% of the element is visible
+//   };
+
+//   const observer = new IntersectionObserver((entries) => {
+//     entries.forEach(entry => {
+//       if (entry.isIntersecting) {
+//         entry.target.classList.add("in-view"); // Add class when in view
+//       } else {
+//         entry.target.classList.remove("in-view"); // Remove class when out of view
+//       }
+//     });
+//   }, observerOptions);
+
+//   // Observe all elements with the target class
+//   const elements = document.querySelectorAll('.project-link-wrapper');
+//   elements.forEach(el => observer.observe(el));
+// });

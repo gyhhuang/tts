@@ -2922,6 +2922,10 @@ blockquote {
   position: relative;
 }
 
+.section-fda {
+  padding-bottom: 7rem;
+}
+
 .section.section-hero {
   justify-content: space-between;
   align-items: center;
@@ -5363,3 +5367,7 @@ blockquote {
 .project-link-wrapper {
   cursor: auto;
 }
+
+/* .project-link-wrapper.in-view {
+  opacity: 1; /* Full opacity when in view */
+/* } */
