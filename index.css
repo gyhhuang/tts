@@ -2926,6 +2926,10 @@ blockquote {
   padding-bottom: 5rem;
 }
 
+.section-dod {
+  padding-bottom: 9rem;
+}
+
 .section.section-hero {
   justify-content: space-between;
   align-items: center;
@@ -5381,6 +5385,7 @@ blockquote {
   max-width: 300px;
 }
 
+
 #Work {
   padding-bottom: 500px; /* Default padding for non-mobile devices */
 }
@@ -5403,3 +5408,8 @@ blockquote {
 /* .project-link-wrapper.in-view {
   opacity: 1; /* Full opacity when in view */
 /* } */
+
+
+/* .dod {
+  padding-bottom: 20px;
+} */
