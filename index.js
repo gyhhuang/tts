@@ -12873,6 +12873,8 @@ window.addEventListener('resize', function() {
   if (window.innerWidth <= 868) {
     console.log('setting padding')
     document.getElementById('Work').style.paddingBottom = '0px';
+  } else if (window.innerWidth > 868) {
+    document.getElementById('Work').style.paddingBottom = '500px';
   }
 });
 

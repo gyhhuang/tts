@@ -2068,6 +2068,7 @@ blockquote {
 
 .nav-bar {
   background-color: #ddd0;
+  /* background: linear-gradient(to bottom, #333, rgba(0, 0, 0, 0) 100%); */
   flex-flow: column;
   justify-content: center;
   align-items: stretch;
@@ -2527,18 +2528,18 @@ blockquote {
 }
 
 .nav-link.nav_link--contact {
-  border: 1px solid var(--theme--primary-color);
+  /* border: 1px solid var(--theme--primary-color); */
   border-radius: 3rem;
   align-self: auto;
   height: auto;
   padding: 4px 16px;
   transition: border-color .3s, background-color .3s, color .3s;
 }
-
+/* 
 .nav-link.nav_link--contact:hover {
   background-color: var(--theme--primary-color);
   color: var(--background-black);
-}
+} */
 
 .nav-sub-container {
   flex-wrap: wrap;
@@ -5345,7 +5346,7 @@ blockquote {
 }
 
 #Work {
-  padding-bottom: 400px; /* Default padding for non-mobile devices */
+  padding-bottom: 500px; /* Default padding for non-mobile devices */
 }
 
 @media (max-width: 668px) {
@@ -5357,4 +5358,8 @@ blockquote {
 #Contact {
   padding-top: 0px;
   margin-top: 50px;
+}
+
+.project-link-wrapper {
+  cursor: auto;
 }
