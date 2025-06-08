@@ -4500,7 +4500,7 @@ blockquote {
   }
 
   .project-heading {
-    font-size: calc(2vw + 2rem);
+    font-size: calc(1vw + 2rem);
   }
 
   .project-text-wrapper {
@@ -4583,11 +4583,30 @@ blockquote {
 
   .intro-text-white-copy {
     width: 80%;
-    font-size: 2.25em;
+    font-size: 1.5em;
   }
 
   #Work {
     padding-bottom: 0rem;
+  }
+
+  
+  #Work {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .section-fda {
+    padding-top: 0rem;
+  }
+
+  .section-dod {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .section-army {
+    padding-top: 0rem;
   }
 }
 
@@ -4955,7 +4974,26 @@ blockquote {
   }
 
   .intro-text-white-copy {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+
+  
+  #Work {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .section-fda {
+    padding-top: 0rem;
+  }
+
+  .section-dod {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .section-army {
+    padding-top: 0rem;
   }
 }
 
@@ -5295,12 +5333,26 @@ blockquote {
   }
 
   .intro-text-white-copy {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 
   
   #Work {
+    padding-top: 0rem;
     padding-bottom: 0rem;
+  }
+
+  .section-fda {
+    padding-top: 0rem;
+  }
+
+  .section-dod {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .section-army {
+    padding-top: 0rem;
   }
 }
 
@@ -5435,9 +5487,9 @@ blockquote {
 /* } */
 
 
-/* .dod {
-  padding-bottom: 20px;
-} */
+.dod {
+  width: 500px;
+}
 
 .s-container {
   align-items: start;
