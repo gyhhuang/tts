@@ -4,6 +4,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 [class^="w-icon-"],
 [class*=" w-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -2926,8 +2927,12 @@ blockquote {
   padding-bottom: 5rem;
 }
 
+.section-army {
+  padding-bottom: 5rem;
+}
+
 .section-dod {
-  padding-bottom: 9rem;
+  padding-bottom: 0rem;
 }
 
 .section.section-hero {
@@ -4015,6 +4020,11 @@ blockquote {
   display: flex;
 }
 
+
+#Work {
+  padding-bottom: 500px; /* Default padding for non-mobile devices */
+}
+
 .section-buffer.quotes {
   overflow: hidden;
 }
@@ -4036,10 +4046,11 @@ blockquote {
 
 .intro-text-white-copy {
   color: #f5f5f5;
-  text-align: center;
-  max-width: 600px;
+  text-align: start;
+  /* max-width: 600px; */
   padding-bottom: 1.5rem;
-  font-size: 2em;
+  padding-top: 1.5rem;
+  font-size: 1.5em;
   font-weight: 400;
   line-height: 1.3em;
 }
@@ -4573,6 +4584,10 @@ blockquote {
   .intro-text-white-copy {
     width: 80%;
     font-size: 2.25em;
+  }
+
+  #Work {
+    padding-bottom: 0rem;
   }
 }
 
@@ -5282,6 +5297,11 @@ blockquote {
   .intro-text-white-copy {
     font-size: 1.8em;
   }
+
+  
+  #Work {
+    padding-bottom: 0rem;
+  }
 }
 
 #w-node-_38d51168-53af-98cc-ea08-ab098be32480-c67dd619 {
@@ -5382,13 +5402,18 @@ blockquote {
 }
 
 .fda {
-  max-width: 300px;
+  max-width: 400px;
+}
+
+.army {
+  max-width: 380px;
+}
+
+.mil {
+  max-width: 320px;
 }
 
 
-#Work {
-  padding-bottom: 500px; /* Default padding for non-mobile devices */
-}
 
 @media (max-width: 668px) {
   #Work {
@@ -5413,3 +5438,7 @@ blockquote {
 /* .dod {
   padding-bottom: 20px;
 } */
+
+.s-container {
+  align-items: start;
+}
